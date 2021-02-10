@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: indianred;
+}
+
+/* UTILITIES */
+
+.d_flex{
+    display: flex;
+}
+
+
+#app{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: lightblue;
+}
+/* HEADER */
+header{
+    width: 100%;
+    height: 15%;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    width: 80%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_left , .nav_right{
+    width: 15%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+nav{
+    width: 70%;
+    height: 100%;
+    background-color: lightgreen;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul{
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+/* MAIN */
+
+main{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 25%;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 80%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot_left , .foot_right{
+    width: 25%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.foot{
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot_column{
+    flex-direction: column;
+}
