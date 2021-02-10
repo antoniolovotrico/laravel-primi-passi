@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('main_content')
-<p>This is the Homepage</p>
+<p>This is the About Us Page</p>
 @endsection
