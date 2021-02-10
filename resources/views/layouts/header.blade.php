@@ -5,8 +5,8 @@
                     <div class="nav_left d_flex"></div>
                     <nav class="d_flex">
                         <ul class="d_flex">
-                            <li><a href="">HOME</a></li>
-                            <li><a href="{{ url('/about_us') }}">ABOUT US</a></li>
+                            <li><a href="/">HOME</a></li>
+                            <li><a href="about">ABOUT US</a></li>
                         </ul>
                     </nav>
                     <div class="nav_right d_flex"></div>
