@@ -16,13 +16,11 @@
     width: 100vw;
     height: 100vh;
     flex-direction: column;
-    background-color: lightblue;
 }
 /* HEADER */
 header{
     width: 100%;
     height: 15%;
-    background-color: lightcoral;
     justify-content: center;
     align-items: center;
 }
@@ -62,6 +60,8 @@ main{
     width: 100%;
     height: 60%;
     background-color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 /* FOOTER */
@@ -69,7 +69,6 @@ main{
 footer{
     width: 100%;
     height: 25%;
-    background-color: lightcoral;
     justify-content: center;
     align-items: center;
 }
@@ -89,10 +88,14 @@ footer{
 
 .foot{
     width: 50%;
+    height: 100%;
     justify-content: space-evenly;
     align-items: center;
+    background-color: wheat;
 }
 
 .foot_column{
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }

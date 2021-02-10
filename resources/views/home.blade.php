@@ -26,7 +26,7 @@
                 </div>
             </header>
 
-            <main>
+            <main class="d_flex">
                     Content
             </main>
 
@@ -36,7 +36,7 @@
                     <div class="foot d_flex">
                         <div class="foot_column d_flex">
                             <h2>CONTATTI</h2>
-                            <ul class="d_flex">
+                            <ul>
                                 <li><a href="">HOME</a></li>
                                 <li><a href="">ABOUT US</a></li>
                             </ul>
