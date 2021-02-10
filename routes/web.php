@@ -14,7 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $title = 'Home Page';
+    $inter = [
+        [
+            "name" => 'Handanovic',
+            "position" => 'Goalkeeper'
+        ],
+        [
+            "name" => 'Hakimi',
+            "position" => 'Defense'
+        ],
+        [
+            "name" => 'Barella',
+            "position" => 'Midfielder'
+        ],
+        [
+            "name" => 'Lautaro Martinez',
+            "position" => 'Striker'
+        ]
+        ];
+    return view('home', compact('title', 'inter'));
 });
 
 Route::get('about', function () {
